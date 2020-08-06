@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import com.codincamp.book.bean.Person;
 import com.codincamp.book.dao.PersonDao;
-               
+                                                        
 @WebServlet("/")     
 public class PersonServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
