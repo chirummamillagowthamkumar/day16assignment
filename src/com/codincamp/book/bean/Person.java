@@ -71,7 +71,7 @@ public class Person {
 	}
 	public int getZip() {
 		return zip;
-	}
+	}                    
 	public void setZip(int zip) {
 		this.zip = zip;
 	}

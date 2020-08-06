@@ -12,9 +12,9 @@ import com.codincamp.book.bean.Person;
 
 
 public class PersonDao {
-	private String url="jdbc.oracle:thin:@localhost:1521:xe";
-	private String username="system";
-	private String password="system";
+	private String url="jdbc.mysql//localhost:3306";
+	private String username="root";
+	private String password="root";
 	
 	private static final String insert="INSERT INTO ADDRESS_BOOK (firstname,lastname,address,city,state,zip,phone) VALUES (?,?,?,?,?,?,?);";
 	private static final String selectPersonById="SELECT id,firstname,lastname,address,city,state,zip,phone from ADDRESS_BOOK WHERE ID=?";

@@ -15,13 +15,13 @@ import javax.servlet.http.HttpServletResponse;
 import com.codincamp.book.bean.Person;
 import com.codincamp.book.dao.PersonDao;
 
-@WebServlet("/")
+@WebServlet("/")     
 public class PersonServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	private PersonDao persondao = new PersonDao();
 
 	public void init(ServletConfig config) throws ServletException {
-
+    
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
